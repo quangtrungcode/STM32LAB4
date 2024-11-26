@@ -1,0 +1,17 @@
+led7_segment.c:36:6:set_led7_segement	8	static
+led7_segment.c:42:6:display7SEGX	32	static
+led7_segment.c:63:6:display7SEGY	32	static
+led7_segment.c:84:6:led7_segment_run02	8	static
+led7_segment.c:143:6:led7_segment_run13	8	static
+led7_segment.c:266:6:Save_led7RED_segment_run02	8	static
+led7_segment.c:274:6:Save_led7GREEN_segment_run02	8	static
+led7_segment.c:282:6:Save_led7YELLOW_segment_run02	8	static
+led7_segment.c:290:6:Save_led7RED_segment_run13	8	static
+led7_segment.c:302:6:Increase_Save_led7RED_segment_run13	8	static
+led7_segment.c:317:6:Save_led7GREEN_segment_run13	8	static
+led7_segment.c:329:6:Increase_Save_led7GREEN_segment_run13	8	static
+led7_segment.c:343:6:Save_led7YELLOW_segment_run13	8	static
+led7_segment.c:355:6:Increase_Save_led7YELLOW_segment_run13	8	static
+led7_segment.c:370:6:LED_RED_TEST	8	static
+led7_segment.c:373:6:LED_GREEN_TEST	8	static
+led7_segment.c:376:6:LED_YELLOW_TEST	8	static

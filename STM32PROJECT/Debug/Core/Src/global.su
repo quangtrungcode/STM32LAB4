@@ -1,0 +1,4 @@
+global.c:14:6:status_transition_AUTO_GREEN1_RED2	8	static
+global.c:24:6:status_transition_AUTO_RED1_YELLOW2	8	static
+global.c:34:6:status_transition_AUTO_RED1_GREEN2	8	static
+global.c:44:6:status_transition_AUTO_YELLOW1_RED2	8	static
