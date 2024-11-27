@@ -24,8 +24,13 @@ typedef struct {
  // MUST BE ADJUSTED FOR EACH NEW PROJECT
 #define SCH_MAX_TASKS 40
  void SCH_Init ( void );
- unsigned char SCH_Add_Task ( void ( * pFunction ) ( ) , unsigned int DELAY, unsigned int PERIOD);
- void SCH_Update ( void );
- void SCH_Dispatch_Tasks ( void );
- void SCH_Delete_Task(uint32_t TASK_INDEX);
+// unsigned char SCH_Add_Task ( void ( * pFunction ) ( ) , unsigned int DELAY, unsigned int PERIOD);
+// void SCH_Update ( void );
+// void SCH_Dispatch_Tasks ( void );
+// void SCH_Delete_Task(uint32_t TASK_INDEX);
+
+ uint8_t SCH_Add_Task(void (*pFunction)(void), uint32_t DELAY, uint32_t PERIOD);
+ void SCH_Delete_Task(uint8_t TASK_INDEX);
+ void SCH_Update(void);
+ void SCH_Dispatch_Tasks(void);
 #endif /* INC_SCHEDULER_H_ */
